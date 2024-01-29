@@ -36,4 +36,18 @@ while confirma=="no":
 
 print(f"BIENVENIDO {nombre}¿Qué operación vas a realizar?")
 print("ARTIMETICAS, GEOMÉTRICAS, ESTADISTICAS, COMERCIALES")
-input("ingresa el nombre del tipo de operación: ")
+eleccion=input("ingresa el nombre del tipo de operación: ")
+
+if eleccion=="ARITMETICAS":
+    pass
+
+if eleccion=="ARITMETICAS":
+    pass
+
+if eleccion=="ARITMETICAS":
+    pass
+
+if eleccion=="ARITMETICAS":
+    pass
+
+
