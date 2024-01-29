@@ -1,3 +1,4 @@
+#Funcion para calcular IVA para un monto de factura y un porcentaje
 def impuestos():
     def calcula_iva(factura,iva):
         impuesto=factura*iva/100
@@ -18,6 +19,9 @@ def impuestos():
     resultado=calcula_iva(pagar,porc_iva)
     print("Factura con IVA= "+str(resultado))
 
+
+
+#Función para calcular el factorial de un número
 def factorial(num):
     a=1
     for i in range (1,num):
