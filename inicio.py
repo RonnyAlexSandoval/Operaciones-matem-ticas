@@ -78,7 +78,7 @@ if eleccion=="GEOMETRICAS":
 
 
 if eleccion=="ESTADISTICAS":
-    pass
+    def calculos_estadisticos()
 
 if eleccion=="COMERCIALES":
     pass
