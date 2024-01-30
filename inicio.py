@@ -42,6 +42,7 @@ eleccion=input("ingresa el nombre del tipo de operación: ")
 
 if eleccion=="ARITMETICAS":
     srmd=input("Deseas realizar suma (s), resta (s), multiplicación (m) o división (d): ")
+
     if srmd.lower()=="s":
         print("Resultado= ", suma(int(input("primer sumando= ")),int(input("primer sumando= "))))
 
@@ -58,7 +59,23 @@ if eleccion=="ARITMETICAS":
 
 
 if eleccion=="GEOMETRICAS":
-    pass
+    print("Calcular perímetro y área de figuras")
+    figura=input("Elige una figura:\n(a) Triangulo rectángulo \n(b) Cuadrado \n(c) Rectángulo \nd) Círculo \n Elección: ...")
+    
+    if figura.lower()=="a":
+        print(triangulo_rectangulo(int(input("base= ")),int(input("altura= "))))
+
+    elif figura.lower()=="b":
+        print(cuadrado(int(input("lado= "))))
+
+    elif figura.lower()=="c":
+        print(rectangulo(int(input("base= ")),int(input("altura= "))))
+
+    elif figura.lower()=="d":
+        print(circulo(int(input("radio= "))))
+
+
+
 
 if eleccion=="ESTADISTICAS":
     pass

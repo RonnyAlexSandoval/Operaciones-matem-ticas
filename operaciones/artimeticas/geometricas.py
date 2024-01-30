@@ -1,3 +1,4 @@
+#Funciones para calcular area y perímetro. Devuelve un diccionario
 def triangulo_rectangulo (b,h):
     area=b*h
     hip=b**2+h**2
@@ -5,17 +6,20 @@ def triangulo_rectangulo (b,h):
     dicc={"Area:":area,"Perimetro:":perimetro}
     return dicc
 
+
 def cuadrado (l):
     area=l*l
     perimetro=4*l
     dicc={"Area:":area,"Perimetro:":perimetro}
     return dicc
 
+
 def rectangulo (b,h):
     area=b*h
     perimetro=2*b+2*h
     dicc={"Area:":area,"Perimetro:":perimetro}
     return dicc
+
 
 def  circulo (r):
     area=3.14159*r**2

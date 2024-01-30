@@ -1,6 +1,6 @@
 import math
 
-
+#Función maestra que calcula medidas de tendencia central y dispersion
 def calculos_estadisticos():
     conjunto=[]
     entrada=input("Escribe los datos separados por espacio: ")
