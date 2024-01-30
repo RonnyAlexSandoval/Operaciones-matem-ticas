@@ -78,9 +78,27 @@ if eleccion=="GEOMETRICAS":
 
 
 if eleccion=="ESTADISTICAS":
-    def calculos_estadisticos()
+    calculos_estadisticos()
+
+
+
 
 if eleccion=="COMERCIALES":
-    pass
+    com=input("Selecciona una opción: \n (a)Calcular impuestos \n (b)Calcular factorial \n Elección: ...")
+    while com!="a" and com!="b":
+        com=input("¡Opción inválida!.  Por favor, ingresa (a) ó (b): \n (a)Calcular impuestos \n (b)Calcular factorial \n Elección: ...")
+    if com=="a":
+        impuestos()
+    if com=="b":
+        entero=int(input("Calcular el factorial de: "))
+        while True:
+            try:
+                factorial(entero)
+                break
+            except:
+                entero=int(input("Solo son permitidas entrada de números enteros.\nPor favor ingresa en número: "))
+ 
+
+
 
 

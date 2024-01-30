@@ -6,7 +6,10 @@ def impuestos():
         return total
 
     pagar=float(input("Monto de factura: "))
-    porc_iva=float(input("%IVA: "))
+    try:
+        porc_iva=float(input("%IVA: "))
+    except:
+        porc_iva=21
 
     while porc_iva<0 or pagar<0:
         print("Introduzca solo valores positivos")
