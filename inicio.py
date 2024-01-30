@@ -34,20 +34,36 @@ while confirma=="no":
     confirma=input("Introduce SI o NO: ").lower()
 
 
+
 print(f"BIENVENIDO {nombre}¿Qué operación vas a realizar?")
 print("ARTIMETICAS, GEOMÉTRICAS, ESTADISTICAS, COMERCIALES")
 eleccion=input("ingresa el nombre del tipo de operación: ")
 
-if eleccion=="ARITMETICAS":
-    pass
 
 if eleccion=="ARITMETICAS":
+    srmd=input("Deseas realizar suma (s), resta (s), multiplicación (m) o división (d): ")
+    if srmd.lower()=="s":
+        print("Resultado= ", suma(int(input("primer sumando= ")),int(input("primer sumando= "))))
+
+    elif srmd.lower()=="r":
+        print("Resultado= ", resta(int(input("minuendo= ")),int(input("sustraendo= "))))
+
+    elif srmd.lower()=="m":
+        print("Resultado= ", producto(int(input("primer factor= ")),int(input("primer factor= "))))
+
+    elif srmd.lower()=="d":
+        print("Resultado= ", cociente(int(input("dividendo= ")),int(input("divisor= "))))
+
+
+
+
+if eleccion=="GEOMETRICAS":
     pass
 
-if eleccion=="ARITMETICAS":
+if eleccion=="ESTADISTICAS":
     pass
 
-if eleccion=="ARITMETICAS":
+if eleccion=="COMERCIALES":
     pass
 
 

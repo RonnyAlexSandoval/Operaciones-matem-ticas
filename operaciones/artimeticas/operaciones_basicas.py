@@ -9,7 +9,7 @@ def producto(a,b):
 
 def cociente(a,b):
     if b==0:
-        return "Error! División por 0"
+        return "¡Error! División por 0"
     else:
         return a/b
 
